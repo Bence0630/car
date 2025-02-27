@@ -1,4 +1,4 @@
-/* Ferrari Stílus */
+/* Alapstílusok */
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -6,6 +6,9 @@ body {
     background-color: #000;
     color: #fff;
     text-align: center;
+    background-image: url(img/tesla.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Fejléc */
@@ -14,7 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background: red;
+    background: rgba(0, 0, 0, 0.8);
     position: fixed;
     width: 100%;
     top: 0;
@@ -24,7 +27,6 @@ body {
 .header .logo {
     font-size: 24px;
     font-weight: bold;
-    color: black;
 }
 
 .nav a {
@@ -36,7 +38,7 @@ body {
 }
 
 .nav a:hover {
-    color: yellow;
+    color: #e50914;
 }
 
 /* Hero szekció */
@@ -46,13 +48,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('ferrari-hero.jpg') no-repeat center center/cover;
+    background: url('tesla-hero.jpg') no-repeat center center/cover;
 }
 
 .hero h1 {
     font-size: 48px;
     font-weight: bold;
-    color: red;
 }
 
 .hero p {
@@ -75,9 +76,6 @@ body {
 }
 
 .button:hover {
-    background: red;
+    background: white;
     color: black;
-}
-.logo img {
-    width: 50px
 }

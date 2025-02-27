@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    padding: 2em;
+}
+.banner {
+    background-image: url('banner-image.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.sections {
+    margin: 2em 0;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+.contact-form input, .contact-form textarea {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    font-size: 1em;
+}

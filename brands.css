@@ -1,0 +1,72 @@
+/* Alapstílusok */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2d2d35;
+    text-align: center;
+}
+
+.header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Márkák konténer */
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.brand-card {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.brand-card span {
+    display: block;
+    margin-top: auto;
+    font-weight: bold;
+}
+
+.brand-card:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 800px) {
+    .brands {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 801px) {
+    .brands {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
