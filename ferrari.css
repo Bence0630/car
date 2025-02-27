@@ -1,0 +1,30 @@
+.top-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(239,26,45);
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    transition: background 0.3s;
+}
+
+.top-menu a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background 0.3s;
+}
+
+.top-menu a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.top-menu a img {
+    height: 50px;
+    margin-right: 10px;
+}
