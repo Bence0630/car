@@ -1,0 +1,82 @@
+/* Alapstílusok */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    background-position: center;
+    text-shadow: 2px 2px black;
+}
+
+/* Fejléc */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #e50914;
+}
+
+/* Hero szekció */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('tesla-hero.jpg') no-repeat center center/cover;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
+/* Gombok */
+.button {
+    display: inline-block;
+    padding: 12px 30px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background: white;
+    color: black;
+}
+.logo img {
+    width: 50px;
+}
